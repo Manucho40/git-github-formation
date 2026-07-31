@@ -31,7 +31,7 @@ class User {
     }
 
     getEmail(): string {
-        console.log('Hello world');
+        if(this.getFullName() === 'Ange') return 'Hello';
         return this.email;
     }
 
