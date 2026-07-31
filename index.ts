@@ -34,10 +34,6 @@ class User {
         return this.email;
     }
 
-    isEnabled(): boolean {
-        return this.isActive;
-    }
-
     // Setters
     setFirstName(firstName: string): void {
         this.firstName = firstName;
