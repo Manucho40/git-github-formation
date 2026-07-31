@@ -31,6 +31,7 @@ class User {
     }
 
     getEmail(): string {
+        console.log('Hello world');
         return this.email;
     }
 
